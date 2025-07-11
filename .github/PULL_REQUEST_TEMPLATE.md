@@ -15,7 +15,7 @@
 
 <!--- JIRA ticket link  -->
 
-[JIRA: XXXX](<JIRA-URL>)
+[JIRA: XX-YYYY](https://dyedurham.atlassian.net/browse/XX-YYYY)
 
 ## How Has This Been Tested? 📝
 
