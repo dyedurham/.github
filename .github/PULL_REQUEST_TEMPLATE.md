@@ -2,6 +2,10 @@
 
 <!--- Why is this change required? What problem does it solve? -->
 
+## Screenshots (if appropriate) 📷
+
+<!--- Wanna show some visuals? Here's the perfect place -->
+
 ## Types of changes 🚀
 
 <!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
@@ -24,8 +28,6 @@
 - [ ] Unit tests 🧪
 - [ ] E2E tests 🛫🛬
 - [ ] Other (Provide a brief description below) ❓
-
-## Screenshots (if appropriate) 📷
 
 ## Checklist ✅
 
