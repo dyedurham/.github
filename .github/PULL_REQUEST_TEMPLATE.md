@@ -2,9 +2,23 @@
 
 <!--- Why is this change required? What problem does it solve? -->
 
+### Related Issue 🔗
+
+<!--- JIRA ticket link(s)  -->
+
+[JIRA: XX-YYYY](https://dyedurham.atlassian.net/browse/XX-YYYY)
+
 ## Screenshots (if appropriate) 📷
 
 <!--- Wanna show some visuals? Here's the perfect place -->
+
+## How Has This Been Tested? 📝
+
+<!--- Test coverage / Manual test -->
+
+- [ ] Unit tests 🧪
+- [ ] E2E tests 🛫🛬
+- [ ] Other (Provide a brief description below) ❓
 
 ## Types of changes 🚀
 
@@ -13,20 +27,7 @@
 - [ ] Bug fix (non-breaking change which fixes an issue) 🐛
 - [ ] New feature (non-breaking change which adds functionality) 🔥
 - [ ] Breaking change (fix or feature that would cause existing functionality to change) ⚠️
-- [ ] Other (Provide a brief description below) ❓
-
-## Related Issue 🔗
-
-<!--- JIRA ticket link  -->
-
-[JIRA: XX-YYYY](https://dyedurham.atlassian.net/browse/XX-YYYY)
-
-## How Has This Been Tested? 📝
-
-<!--- Test coverage / Manual test -->
-
-- [ ] Unit tests 🧪
-- [ ] E2E tests 🛫🛬
+- [ ] Vulnerability Patching (changes that fix one or more vulnerabilities) 🕵️‍♀️
 - [ ] Other (Provide a brief description below) ❓
 
 ## Checklist ✅
