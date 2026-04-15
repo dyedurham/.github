@@ -2,20 +2,15 @@
 
 <!--- Why is this change required? What problem does it solve? -->
 
-## Types of changes 🚀
+### Related Issue 🔗
 
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
-
-- [ ] Bug fix (non-breaking change which fixes an issue) 🐛
-- [ ] New feature (non-breaking change which adds functionality) 🔥
-- [ ] Breaking change (fix or feature that would cause existing functionality to change) ⚠️
-- [ ] Other (Provide a brief description below) ❓
-
-## Related Issue 🔗
-
-<!--- JIRA ticket link  -->
+<!--- JIRA ticket link(s)  -->
 
 [JIRA: XX-YYYY](https://dyedurham.atlassian.net/browse/XX-YYYY)
+
+## Screenshots (if appropriate) 📷
+
+<!--- Wanna show some visuals? Here's the perfect place -->
 
 ## How Has This Been Tested? 📝
 
@@ -25,7 +20,15 @@
 - [ ] E2E tests 🛫🛬
 - [ ] Other (Provide a brief description below) ❓
 
-## Screenshots (if appropriate) 📷
+## Types of changes 🚀
+
+<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+
+- [ ] Bug fix (non-breaking change which fixes an issue) 🐛
+- [ ] New feature (non-breaking change which adds functionality) 🔥
+- [ ] Breaking change (fix or feature that would cause existing functionality to change) ⚠️
+- [ ] Vulnerability Patching (changes that fix one or more vulnerabilities) 🕵️‍♀️
+- [ ] Other (Provide a brief description below) ❓
 
 ## Checklist ✅
 
