@@ -1,0 +1,33 @@
+name: Content validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate GitHub Actions workflows
+        env:
+          ACTIONLINT_VERSION: 1.7.7
+        run: |
+          curl -sSLo actionlint.tar.gz \
+            "https://github.com/rhysd/actionlint/releases/download/v${ACTIONLINT_VERSION}/actionlint_${ACTIONLINT_VERSION}_linux_x86_64.tar.gz"
+          tar -xzf actionlint.tar.gz actionlint
+          ./actionlint -ignore 'the runner of ".+" action is too old'
+
+      - name: Validate YAML syntax and duplicate keys
+        run: |
+          pip install --disable-pip-version-check yamllint==1.37.1
+          yamllint -d '{rules: {key-duplicates: enable}}' .
+
+      - name: Validate Markdown
+        run: npx --yes markdownlint-cli@0.45.0 '**/*.md' --disable MD013 MD041
