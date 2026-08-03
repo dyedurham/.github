@@ -28,6 +28,7 @@
 - [ ] New feature (non-breaking change which adds functionality) 🔥
 - [ ] Breaking change (fix or feature that would cause existing functionality to change) ⚠️
 - [ ] Vulnerability Patching (changes that fix one or more vulnerabilities) 🕵️‍♀️
+- [ ] Documentation (changes that add, modify, or remove non-executing information) 📖
 - [ ] Other (Provide a brief description below) ❓
 
 ## Checklist ✅
